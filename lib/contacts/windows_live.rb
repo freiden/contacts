@@ -175,6 +175,7 @@ module Contacts
     def request_contacts
       http = Net::HTTP.new('livecontacts.services.live.com', 443)
       http.use_ssl = true
+      http.verify_mode = OpenSSL::SSL::VERIFY_NONE
       url = "/users/@L@#{@location_id}/rest/invitationsbyemail"
       authorization = "DelegatedToken dt=\"#{@delegation_token}\""
       http.get(url, {"Authorization" => authorization}).body
