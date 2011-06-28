@@ -33,7 +33,6 @@ Gem::Specification.new do |s|
     "lib/contacts/windows_live.rb",
     "lib/contacts/yahoo.rb",
     "patch-contacts.gemspec",
-    "rails/init.rb",
     "spec/config/contacts.yml",
     "spec/contact_spec.rb",
     "spec/feeds/google-many.xml",
@@ -68,7 +67,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<httparty>, [">= 0"])
       s.add_runtime_dependency(%q<hpricot>, [">= 0"])
       s.add_runtime_dependency(%q<nokogiri>, [">= 0"])
-      s.add_runtime_dependency(%q<oauth>, ["= 0.3.6"])
+      s.add_runtime_dependency(%q<oauth>, ["= 0.4.4"])
       s.add_runtime_dependency(%q<json>, [">= 0"])
       s.add_development_dependency(%q<rspec>, ["~> 2.1.0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
@@ -80,7 +79,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<httparty>, [">= 0"])
       s.add_dependency(%q<hpricot>, [">= 0"])
       s.add_dependency(%q<nokogiri>, [">= 0"])
-      s.add_dependency(%q<oauth>, ["= 0.3.6"])
+      s.add_dependency(%q<oauth>, ["= 0.4.4"])
       s.add_dependency(%q<json>, [">= 0"])
       s.add_dependency(%q<rspec>, ["~> 2.1.0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
@@ -93,7 +92,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<httparty>, [">= 0"])
     s.add_dependency(%q<hpricot>, [">= 0"])
     s.add_dependency(%q<nokogiri>, [">= 0"])
-    s.add_dependency(%q<oauth>, ["= 0.3.6"])
+    s.add_dependency(%q<oauth>, ["= 0.4.4"])
     s.add_dependency(%q<json>, [">= 0"])
     s.add_dependency(%q<rspec>, ["~> 2.1.0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])

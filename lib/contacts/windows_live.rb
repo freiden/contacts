@@ -63,6 +63,10 @@ module Contacts
     end
 
     def serializable_data
+      {}
+    end
+
+    def q
       data = {}
       data['token_expires_at'] = @token_expires_at.to_i if @token_expires_at
       data['location_id'] = @location_id if @location_id
