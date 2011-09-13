@@ -14,13 +14,13 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "turing-contacts"
-  gem.homepage = "https://github.com/turingstudio/contacts"
+  gem.name = "freiden-contacts"
+  gem.homepage = "https://github.com/freiden/contacts"
   gem.license = "MIT"
   gem.summary = "Import users' contacts lists from Google, Yahoo!, and Windows Live."
-  gem.description = "Import users' contacts lists from Google, Yahoo!, and Windows Live."
-  gem.email = "julian@turingstudio.com"
-  gem.authors = ["Mislav Marohnić", "George Ogata", "Julian Coutu"]
+  gem.description = "Import users' contacts lists from Google, Yahoo!, and Windows Live fork from holinn and turing contacts gem"
+  gem.email = "chuck_cfd@hotmail.fr"
+  gem.authors = ["freiden"]
 end
 
 Jeweler::RubygemsDotOrgTasks.new
