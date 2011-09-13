@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
     "lib/contacts/version.rb",
     "lib/contacts/windows_live.rb",
     "lib/contacts/yahoo.rb",
-    "patch-contacts.gemspec",
+    # "patch-contacts.gemspec",
     "spec/config/contacts.yml",
     "spec/contact_spec.rb",
     "spec/feeds/google-many.xml",
@@ -44,7 +44,8 @@ Gem::Specification.new do |s|
     "spec/spec_helper.rb",
     "spec/windows_live/windows_live_spec.rb",
     "spec/yahoo/yahoo_spec.rb",
-    "turing-contacts.gemspec"
+    # "turing-contacts.gemspec"
+    "freiden-contacts.gemspec"
   ]
   s.homepage = %q{https://github.com/freiden/contacts}
   s.licenses = ["MIT"]
